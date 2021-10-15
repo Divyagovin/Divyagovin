@@ -1,0 +1,16 @@
+n=int(input ("enter the number:")
+result=0
+temp=n
+While n>0:
+    n1=1
+    fact=1
+    digit=n%10
+    While n1<=digit:
+        fact=fact*n1
+        n1=n1+1
+   result=result+fact
+   n=n//10
+if result==temp:
+    print ("the no is a strong number:")
+else:
+    print ("the no is not a strong number:")
