@@ -1,0 +1,7 @@
+n1=int (input ("enter the number:))
+n2=n1*n1
+print ("the square no is :",n1)
+if(n1%10==n2%10):
+    print ("the no is a automorphic")
+else:
+    print (" the no is not a automorphic")
