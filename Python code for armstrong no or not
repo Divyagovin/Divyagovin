@@ -1,0 +1,13 @@
+num=int(input("enter the number:))
+result=0
+n=num
+order=len(str(num))
+print ("length of the number:",order)
+while n!=0:
+    digit=n%10
+    result=result+digit**order
+    n//=10
+if num==result:
+    print ("the no is an armstrong:")
+else:
+    print ("the no is not an armstrong:")
