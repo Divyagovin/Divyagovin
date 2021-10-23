@@ -1,0 +1,12 @@
+list=[]
+n1=int(input("enter the no of elements: ")) 
+for i in range(n1):
+  n2=int(input (" elements: ")) 
+  list.append(n2) 
+a=n1+1
+b=a*(a+1) /2
+c=0
+for j in list:
+   c=c+j
+diff=b-c
+print(" The missing number is:", diff)
