@@ -1,11 +1,11 @@
 list1=[]
-list1=[]
 list2=[]
+list3=[]
 n1=int(input("enter the no of elements:")) 
 for i in range(n1):
   n2=int(input("elements:")) 
   list1.append(n2) 
-print("the list is", list) 
+print("the list is", list1) 
 for j in list1:
    if(j==2):
       list2.append(j)  
@@ -16,6 +16,6 @@ for j in list1:
                break
        else:
           list2.append(j) 
-print("the prime numbers:", list1) 
-print("the non-prime numbers:",list2) 
+print("the prime numbers:", list2) 
+print("the non-prime numbers:",list3) 
 print(list2+list3)
