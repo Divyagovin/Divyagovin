@@ -7,15 +7,15 @@ for i in range(n1):
   list1.append(n2) 
 print("the list is", list1) 
 for j in list1:
-   if(j==2):
-      list2.append(j)  
-   else:
+   if(j>=2):
        for k in range(2, j):
             if (j%k==0):
                list3.append(j)
                break
        else:
           list2.append(j) 
+list2.sort()
+list3.sort()
 print("the prime numbers:", list2) 
 print("the non-prime numbers:",list3) 
 print(list2+list3)
