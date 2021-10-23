@@ -1,0 +1,9 @@
+list=[]
+n1=int(input ("enter the no of elements: ")) 
+for i in range(n1):
+  n2=int(input ("elements:")) 
+  list.append(a) 
+print("the list is",list) 
+list.sort()
+print ("the sorted list is", list) 
+print("the runnerup score is" , list[-2])
